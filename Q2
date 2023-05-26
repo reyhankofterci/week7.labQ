@@ -17,7 +17,7 @@ int main()
     int cumle_uzunluk = strlen(cumle);
     int kelime_uzunluk = strlen(kelime);
 
-    // fgets() fonksiyonu nedeniyle son karakter '\n' olduğundan kaldırılır.
+    // fgets() fonksiyonu nedeniyle son karakter '\n' olduÄŸundan kaldÄ±rÄ±lÄ±r.
     if (cumle[cumle_uzunluk - 1] == '\n')
         cumle[cumle_uzunluk - 1] = '\0';
 
